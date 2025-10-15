@@ -151,7 +151,7 @@ app.get('/carros/estatisticas', (req, res) => {
         totalCarros: carros.length,
         precoMedio: media.toFixed(2),
         precoMinimo: Math.min(...precos),
-        precoMaximo: Math.max(...precos)
+        precoMaximo: Math.max(...precos),
     });
 });
 
